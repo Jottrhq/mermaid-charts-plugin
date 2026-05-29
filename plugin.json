@@ -1,0 +1,20 @@
+{
+  "name": "mermaid-charts",
+  "displayName": "Mermaid Chart Renderer",
+  "version": "0.1.0",
+  "description": "Renders Mermaid diagrams in Markdown preview.",
+  "entry": "index.py",
+  "permissions": [
+    "ui.panel",
+    "editor.read"
+  ],
+  "contributes": {
+    "editorExtensions": [
+      {
+        "id": "mermaid-charts.renderer",
+        "title": "Mermaid Chart Renderer",
+        "module": "mermaid_charts.renderer"
+      }
+    ]
+  }
+}
